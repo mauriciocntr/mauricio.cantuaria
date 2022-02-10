@@ -1,8 +1,8 @@
-
-let listaDeParticipantes = ["Simone", "Lico", "Antonio",
-"Lisa"];
-let quantidadeDeParticipantes = listaDeParticipantes.length;
-for (let indice = 0; indice < quantidadeDeParticipantes; indice++) {
-	const participanteCorrente = listaDeParticipantes[indice];
-	console.log(participanteCorrente);
+let listaDeParticipantes = ["Simone", "Lico", "Antonio", "Lisa"];  
+let quantidadeDeParticipantes = listaDeParticipantes.length;  
+if (quantidadeDeParticipantes < 100) {
+listaDeParticipantes.push("Dionisio");  
+console.log(listaDeParticipantes);  
+} else {  
+console.log("O cadastro não será permitido por ter excedido o limite");  
 }
