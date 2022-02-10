@@ -1,8 +1,8 @@
-let listaDeParticipantes = ["Simone", "Lico", "Antonio", "Lisa"];  
-let quantidadeDeParticipantes = listaDeParticipantes.length;  
+let cadastroDeParticipantes = ["Simone", "Lico", "Antonio", "Lisa"];  
+let quantidadeDeParticipantes = cadastroDeParticipantes.length;  
 if (quantidadeDeParticipantes < 100) {
-listaDeParticipantes.push("Dionisio");  
-console.log(listaDeParticipantes);  
+    cadastroDeParticipantes.push("Dionisio");  
+console.log(cadastroDeParticipantes);  
 } else {  
 console.log("O cadastro não será permitido por ter excedido o limite");  
 }
