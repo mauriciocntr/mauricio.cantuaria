@@ -1,0 +1,9 @@
+CREATE TABLE filme (
+	codigo INT NOT NULL AUTO_INCREMENT,
+	titulo VARCHAR(100) NOT NULL,
+	duracao TIME NOT NULL,
+	ano YEAR NOT NULL,
+	capa LONGBLOB,	
+	trailer LONGBLOB,
+    PRIMARY KEY (codigo)
+);
